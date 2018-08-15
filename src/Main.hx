@@ -1,0 +1,32 @@
+
+import js.Node;
+import electron.main.App;
+import electron.main.BrowserWindow;
+
+class Main {
+
+	static function main() {
+
+		electron.CrashReporter.start({
+			companyName : "hxelectron (not a company)",
+			submitURL : "https://github.com/tong/hxelectron/issues"
+		});
+
+		electron.main.App.on( 'ready', function(e) {
+			var win = new BrowserWindow( { 
+				width: 720, 
+				height: 480,
+				"webPreferences":{
+					"webSecurity":false
+				}				
+
+			 } );
+			win.on( closed, function() {
+				if( Node.process.platform != 'darwin' )
+					electron.main.App.quit();
+			});
+			win.loadURL( 'file://${Node.__dirname}/app.html' );
+		});
+	}
+
+}

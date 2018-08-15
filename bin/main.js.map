@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"main.js",
+"sourceRoot":"file:///",
+"sources":["c:/Users/Cambiata/Dropbox/_dev/electron/haxe-electron-mithril/src/Main.hx","C:/HaxeToolkit/haxe/std/js/_std/haxe/io/Bytes.hx"],
+"names":[],
+"mappings":";;;;;YAOC,WAAuB;AAAA,CAEtB,6BAA6B,gBACd,0CACF;AAJS,CAOtB,qBAAuB,QAAQ,YAAY;AAAA,EAC1C,UAAU,gCAAmB,UACrB,cACC,wBACS,kBACF;AAL0B,EAS1C,OAAQ,SAAQ,WACf;AAAA,KAAI,qBAA0B,UAC7B;AAAA;AAAA;AADD;AAVyC,EAa1C,YAAc,YAAS,YAAe;AAbI;AAPrB;;;;oBC4BvB,eAA6B;AAAA,CAC5B,cAAc;AADc,CAE5B,SAAS,eAAuB;AAFJ,CAI3B,qBAAgB;AAJW,CAK3B,eAAe;AALY,CAM3B,aAAa;AANc;;;;"
+}
